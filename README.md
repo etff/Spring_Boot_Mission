@@ -9,3 +9,5 @@ Challenge
 ### 3차 미션 스크리샷
 Basic
 - ![스크린샷 2022-03-05 오후 8 11 54](https://user-images.githubusercontent.com/8775409/156880663-3e62cd8f-2d3d-48ef-8b2f-3e257e16fde0.png)
+Challenge
+- ![스크린샷 2022-03-05 오후 9 35 34](https://user-images.githubusercontent.com/8775409/156883339-f7ca0a9a-c60e-4684-98cf-6aa3419941d6.png)
