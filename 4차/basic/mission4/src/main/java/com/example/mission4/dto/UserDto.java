@@ -6,7 +6,6 @@ public class UserDto {
     private Long id;
     private String username;
     private String password;
-    private Long areaId;
     private Boolean isShopOwner;
 
     public UserDto() {
@@ -16,15 +15,13 @@ public class UserDto {
         this.id = userEntity.getId();
         this.username = userEntity.getUsername();
         this.password = userEntity.getPassword();
-        this.areaId = userEntity.getResidence().getId();
         this.isShopOwner = userEntity.getShopOwner();
     }
 
-    public UserDto(Long id, String username, String password, Long areaId, Boolean isShopOwner) {
+    public UserDto(Long id, String username, String password, Boolean isShopOwner) {
         this.id = id;
         this.username = username;
         this.password = password;
-        this.areaId = areaId;
         this.isShopOwner = isShopOwner;
     }
 
@@ -52,14 +49,6 @@ public class UserDto {
         this.password = password;
     }
 
-    public Long getAreaId() {
-        return areaId;
-    }
-
-    public void setAreaId(Long areaId) {
-        this.areaId = areaId;
-    }
-
     public Boolean getIsShopOwner() {
         return isShopOwner;
     }
@@ -74,7 +63,6 @@ public class UserDto {
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
-                ", areaId=" + areaId +
                 ", isShopOwner=" + isShopOwner +
                 '}';
     }
